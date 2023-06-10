@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sum of Two Integers </title>
+  <script src="./SumofTwoIntegers.js"> </script>
+
+</head>
+
+<body>
+  <blockquote style="background-color:rosybrown">
+    Given an integer n, return an array ans of length n + 1 such that for each i (0
+    <= i <=n), ans[i] is the number of 1's in the binary representation of i. </blockquote>
+      <br />
+      Example 1: Input: n=2 Output: [0,1,1] Explanation: 0 --> 0
+      1 --> 1
+      2 --> 10
+      <br />
+
+      Example 2:
+      Input: n = 5
+      Output: [0,1,1,2,1,2]
+      Explanation:
+      0 --> 0
+      1 --> 1
+      2 --> 10
+      3 --> 11
+      4 --> 100
+      5 --> 101
+      <br />
+      <pre>
+
+      Constraints:
+
+      0 <= n <=105
+      
+</pre>
+      Alright, wait let's see:-
+      To form 0 we want only 0
+      To form 1 we want only 1
+
+      By saying that i can say if you have any even no. let's say 4. So, you want the answer of 4. Whatever the answer
+      of 4 is the answer of 2 as well. So, i can say that even = n / 2
+</body>
+
+
+</html>
